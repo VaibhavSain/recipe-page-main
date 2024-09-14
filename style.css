@@ -1,0 +1,121 @@
+@font-face {
+    font-family:;
+    src: url(assets/fonts/outfit/OFL.txt);
+}
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    height: 1800px;
+    width: 100vw;
+    background-color:rgba(231, 151, 176, 0.65);
+    color: black;
+}
+.container {
+    width: 600px;
+    height: 1520px;
+    position: absolute;
+    left: 26%;
+    top: 18%;
+    background-color: white;
+    border-radius:25px;
+}
+.image img {
+    height: 300px;
+    width: 90%;
+    border-radius: 25px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+}
+.font {
+    font-size: 28px;
+    position: relative;
+    top: 50px;
+    font-weight: bolder;
+    left: 20px;
+}
+.text {
+    text-align: center;
+    margin-left: 20px;
+    font-size: 14px;
+    position: relative;
+    top: 60px;
+    line-height: 22px;
+    width: 560px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.para p{
+    color: purple;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    font-size: 18px;
+}
+.para li {
+    position: relative;
+    left:70px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.ingredients h2 {
+    color: rgba(189, 54, 5, 0.843);
+    font-size: 24px;
+    
+    position: relative;
+    left:20px ;
+}
+.ingredients ul {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    left: 70px;
+    position: relative;
+}
+.hori {
+  margin: 0 30px 0 30px;
+}
+.instructions h2 {
+    color: rgba(189, 54, 0, 0.843);
+    font-size: 24px;
+    position: relative;
+    left: 20px;
+}
+
+.instructions ol {
+    color: rgba(0, 0,0, 0.8);
+    font-size:14px;
+    left: 50px;
+    position: relative;
+    
+}
+.nutrition h2 {
+     color: rgba(189, 54,0, 0.843);
+     font-size: 24px;
+     position: relative;
+     left: 20px;
+}
+.nutrition p {
+    text-align: center;
+    margin-right: 15px;
+    font-size: 14px;
+    position: relative;
+    line-height: 22px;
+    width: 560px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.nutrition table,th,td,tr {
+    color: rgba(0, 0,0, 0.8);
+    border-bottom: 1px solid black;
+    height: 50px;
+    width: 550px;
+    margin: 0 20px 0 20px;
+    text-align: left;
+}
+
+.nutrition .items {
+    color: rgba(189, 54,0, 0.843);
+}
